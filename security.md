@@ -19,6 +19,23 @@ freshclam  // update the databases
 
 cat /etc/cron.d/clamav-update //check cron 
 
+# Lynis 
+
+Lynis is a battle-tested security tool for systems running Linux, macOS, or Unix-based operating system.
+
+Use cases of Lynis
+
+1. Security auditing
+2. Compliance testing
+3. Penetration testing
+4. Vulnerability detection
+5. System hardening
 
 
+# Download and Installation of Lynis
 
+ git clone https://github.com/CISOfy/lynis 
+
+ cd lynis 
+
+ ./lynis audit system 
